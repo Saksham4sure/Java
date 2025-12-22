@@ -10,6 +10,8 @@ public class Main {
         queue1.enqueue(1);
         queue1.enqueue(1);
         queue1.enqueue(1);
+        queue1.enqueue(1);
+        queue1.enqueue(1);
         queue1.printQueue();
     }
 }
