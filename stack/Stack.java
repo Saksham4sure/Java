@@ -7,10 +7,11 @@ public class Stack {
 
     public void push(int input) {
         if (top == max - 1) {
-            System.out.println("Array overflow Remove something!!");
+            System.out.println("Stack overflow Remove something!!");
         } else {
             top++;
             arr[top] = input;
+            System.out.println(arr[top]);
         }
     }
 
@@ -19,6 +20,7 @@ public class Stack {
             System.out.println("Nothing to remove Add something!!");
         } else {
             top--;
+            System.out.println(arr[top]);
         }
     }
 
