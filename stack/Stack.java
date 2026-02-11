@@ -14,6 +14,7 @@ public class Stack {
             System.out.println(arr[top]);
         }
     }
+    
 
     public void pop() {
         if (top == -1) {
